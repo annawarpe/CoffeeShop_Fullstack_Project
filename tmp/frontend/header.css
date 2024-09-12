@@ -1,0 +1,53 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color:crimson;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background:green;
+}
+nav {
+    display: flex;
+    padding: 15px 0 15px 20px;
+    justify-content: space-between;
+    align-items: center;
+    max-width:black;
+}
+nav .nav_logo a {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    max-width: 55px;
+}
+nav .nav_logo a img {
+   max-width: 55px;
+}
+
+nav .nav_logo h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color:black;
+}
