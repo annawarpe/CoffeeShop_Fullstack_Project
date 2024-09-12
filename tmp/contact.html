@@ -1,0 +1,60 @@
+<html>
+    <head>
+      <style>
+        input{
+          width: 500%;
+          height: 7%;
+        }
+        .con{
+          display: flex;
+          gap:50%;
+          top: 50%;
+          bottom:50%;
+        }
+        img{
+          width: 70%;
+          height: 70%;
+        }
+      </style>
+    </head>
+    <header>
+        <link rel="stylesheet" href="header.css" />
+            <nav>
+              <div class="nav_logo">
+                <a href="home.JPEG">
+                  <img src="home.JPEG"/>
+                  <h2>Coffee</h2>
+                </a>
+              </div>
+              <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </header>
+          <br><br><br>
+          <br><br>
+    <body><br><br>
+      <form action="submit" method="POST">
+        <div class="con">
+          <div>
+         Full Name:<br><input type="text" name="name" placeholder="Enter your name" required><br><br>
+          City:<br><input type="text" name="city" placeholder="Enter your city" required><br><br>
+          E-mail:<br><input type="email" name="email" placeholder="Enter your email" required><br><br>
+          Contact:<br><input type="number" name="contact" placeholder="+91-222-333-444" required><br><br>
+          Time:<br><input type="time" name="time" placeholder="Enter time to visit" required><br><br>
+         Quantity:<br><input type="number" name="quantity" placeholder="Enter your quantity" required><br><br>
+        Product Name:<br><input type="texr" name="pname"placeholder="Enter what you want to book" required><br><br>
+         Textarea:<br><input type="textarea" name="message" vlaue="Enter here your comments or other requirements"> <br><br>
+         <button type="submit" name="btn" value="submit">Submit</button>
+         </div>
+         <div>
+         <img src="home.JPEG">
+         </div>
+        </form>
+       
+    </body>
+</html>
